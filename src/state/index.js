@@ -30,7 +30,7 @@ export default new Vuex.Store({
       // }
     },
 
-  
+    // actions可以包含异步操作
     actions:{
       //注意：actions提交的是mutation,而不是直接变更状态
       //context为上下文对象

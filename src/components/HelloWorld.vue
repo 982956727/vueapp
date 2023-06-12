@@ -7,7 +7,9 @@
 </template>
 
 <script>
+  //引入parent组件
   import parent from './parent'
+  //引入outter组件
   import outter from './outter'
 
   export default {
@@ -17,6 +19,7 @@
         msg: 'Welcome to Your Vue.js App'
       }
     },
+    //使用组件
     components:{
       parent,
       outter
